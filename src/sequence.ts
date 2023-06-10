@@ -1,6 +1,7 @@
 import { sequenceOf } from ".";
 import { filter } from "./filter";
 import { map } from "./map";
+import { take } from "./take";
 
 export class Sequence<T> implements Iterable<T> {
     constructor(private readonly iterable: Iterable<T>) { }
@@ -17,6 +18,12 @@ export class Sequence<T> implements Iterable<T> {
 
     map = <S>(mapFn: (value: T, index: number) => S) => {
         const iterable = map(this, mapFn);
+
+        return sequenceOf(iterable);
+    }
+
+    take = (limit: number) => {
+        const iterable = take(this, limit);
 
         return sequenceOf(iterable);
     }
