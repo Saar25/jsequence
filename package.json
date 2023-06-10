@@ -1,0 +1,23 @@
+{
+  "name": "jsequence",
+  "version": "1.0.0",
+  "description": "utility library for lazy evaluation of iterable data in js",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saar25/jsequence.git"
+  },
+  "author": "Saar T",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Saar25/jsequence/issues"
+  },
+  "homepage": "https://github.com/Saar25/jsequence#readme",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
