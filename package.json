@@ -1,6 +1,6 @@
 {
   "name": "jsequence",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "utility library for lazy evaluation of iterable data in js",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

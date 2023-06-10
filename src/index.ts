@@ -1,5 +1,5 @@
-import { Sequence } from "./sequence";
+import { Sequence } from './sequence';
 
 export const sequenceOf = <T>(iterable: Iterable<T>): Sequence<T> => {
-    return new Sequence<T>(iterable)
-}
+  return new Sequence<T>(iterable);
+};
